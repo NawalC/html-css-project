@@ -4,7 +4,8 @@ html {
 .header {
   background-color: rgb(154, 198, 240);
   padding: 20px;
-
+  font-family: "bree serif", serif;
+  font-size: 48px;
   text-align: center;
   font-size: 25px;
   color: white;
@@ -34,13 +35,7 @@ html {
   color: black;
 }
 
-/* Add a color to the active/current link
-.topnav a.active {
-  background-color: #ca6b1d;
-  color: white; 
-}*/
-
-body {
+code body {
   margin: 1em;
   font-family: basic-sans, sans-serif;
   font-size: 1.125em;
@@ -61,6 +56,14 @@ body {
   width: 300px;
   border: 1px solid;
 }
+.container2:nth-child(3) {
+  background-color: lightcoral;
+  border-style: dotted;
+  border-color: lightgray;
+  border-radius: 1em;
+  animation: name duration timing-function delay iteration-count direction
+    fill-mode;
+}
 
 .left {
   float: left;
@@ -75,22 +78,22 @@ body {
 }
 
 .p1 :first-child {
-  color: teal;
-  animation: blinkingText 1.2s infinite;
+  color: rgb(232, 243, 243);
 }
+
 .p2 :first-child {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 50 px;
-  color: crimson;
+  color: rgb(252, 245, 246);
   animation-play-state: running;
 }
-.p3{
+.p3 {
   text-align: center;
 }
 
 .images {
   display: flex-right;
-  padding-top: 80px;
+  padding-top: 4px;
   padding-left: 10px;
   width: 300px;
   float: right;
@@ -98,6 +101,7 @@ body {
 
 /* Style the footer */
 .footer {
+  clear: both;
   background-color: rgb(154, 198, 240);
   padding: 15px;
   text-align: right;
