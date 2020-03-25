@@ -44,44 +44,32 @@ html {
     fill-mode;
 }
 */
+
+.main-content {
+  display: flex;
+  width: 800px;
+  padding: 20px;
+ flex-direction: column;
+ flex-flow: row;
+ 
+}
+
 .heading{
   text-align: center;
   text-shadow: 2em;
 }
-.article {
-  margin-bottom: 2em;
-  display:flex;
-}
+
 
 .img-fluid{
-  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   width: 250px;
-  margin-right:15px;
-  align-content: space-between;
-}
-
-.left {
-  display: flex;
-  width: 800px;
-  padding: 20px;
- 
-  text-align: left;
-  margin-top: 5px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  margin-left: 5 px;
+  float: left;
+  padding-right: 20px;
 }
 
 
-.images {
- display: flex-right;
-  padding-top: 4px;
-  padding-left: 10px;
-  width: 250px;
-  margin-inline: 25%;
-  
-  
-}
+
 .sidebar {
   display: flex;
   margin-left: 70%;
