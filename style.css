@@ -63,7 +63,7 @@ body {
 h1{
   
     text-align: center;
-  
+  color: #ffffff;
 }
 h2 {
   text-align: center;
@@ -75,7 +75,9 @@ p
   }
 
   p:last-child{
-    text-align: left;
+    
+    color: cornsilk;
+    padding: 5px 8px 8px 5px;
   }
 .link{
 
@@ -86,6 +88,7 @@ p
   width: 20em;
   background-color: cornflowerblue;
   border-radius: 5px;
+ 
 }
 /* Style the footer */
 .footer {
@@ -97,11 +100,12 @@ p
   margin-top: auto;
 }
 
-@media (min-width: 320px) {
-  
+
+
+@media (min-width: 1200px) {
   .sidebar {
-    display: inline-flexbox;
+    display: block;
     
-   
+    
   }
 }
