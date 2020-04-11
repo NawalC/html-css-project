@@ -1,5 +1,5 @@
-body {
-  font-family: "bree serif", serif;
+html  {
+  font-family: "bree serif", Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -42,7 +42,6 @@ body {
 .main-content {
   flex: 1;
   
-  
 }
 
 .box {
@@ -52,14 +51,17 @@ body {
   border-radius: 10px;
   max-width: 17rem;
 
-  margin: 1rem 2rem 2rem 0;
+  margin: 1rem 1rem 1rem 0;
 }
 .img-box {
-  max-width: 16rem;
-  max-height: 14rem;
-  margin-bottom: 1rem;
+  
+  width: 16rem;
+  height: 12rem;
+  
   
 }
+
+
 h1{
   
     text-align: center;
@@ -84,12 +86,13 @@ p
   text-align: center;
 }
 
-.sidebar{
-  flex: 0 0 250px;
+.sidebar {
+  flex: 0 0 300px;
   background-color: cornflowerblue;
   border-radius: 5px;
  
 }
+
 /* Style the footer */
 .footer {
   clear: both;
@@ -100,10 +103,21 @@ p
   margin-top: auto;
 }
 
-@media (min-width: 900px) {
-  .sidebar{
-    display: block;
+@media  (min-width: 320px) and (max-width: 900px)  {
+  .main-wrapper{
+   flex-direction: column;
+   
   } 
-  
+  .box{
+    
+    max-width: 100rem;
+  }
 
+  .img-box {
+
+    max-width: 30rem;
+    align-items: center;
+
+    
+  }
 }
