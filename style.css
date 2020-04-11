@@ -1,4 +1,4 @@
-html  {
+html {
   font-family: "bree serif", Arial, Helvetica, sans-serif;
 }
 
@@ -35,54 +35,43 @@ html  {
   color: rgb(143, 223, 223);
 }
 
-.main-wrapper{
+.main-wrapper {
   display: flex;
-  
+  background-color: whitesmoke;
 }
 .main-content {
   flex: 1;
-  
 }
 
 .box {
-  display: inline-block;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
   padding: 1rem;
   border: 1px #d6d6d6 solid;
   border-radius: 10px;
   max-width: 17rem;
+  background-color: turquoise;
 
   margin: 1rem 1rem 1rem 0;
 }
 .img-box {
-  
   width: 16rem;
   height: 12rem;
-  
-  
 }
 
-
-h1{
-  
-    text-align: center;
-  color: #ffffff;
-}
-h2 {
+h1 {
   text-align: center;
 }
 
-p
-  {
-    text-align: center;
-  }
 
-  p:last-child{
-    
-    color: cornsilk;
-    padding: 5px 8px 8px 5px;
-  }
-.link{
 
+p:last-child {
+  color: cornsilk;
+  padding: 5px 8px 8px 5px;
+  text-align: center;
+}
+.link {
   text-align: center;
 }
 
@@ -90,7 +79,9 @@ p
   flex: 0 0 300px;
   background-color: cornflowerblue;
   border-radius: 5px;
- 
+  color: #ffffff;
+  align-items: center;
+   margin: 15px 2px 20px 2px;
 }
 
 /* Style the footer */
@@ -103,21 +94,11 @@ p
   margin-top: auto;
 }
 
-@media  (min-width: 320px) and (max-width: 900px)  {
-  .main-wrapper{
-   flex-direction: column;
-   
-  } 
-  .box{
-    
-    max-width: 100rem;
+@media (min-width: 320px) and (max-width: 900px) {
+  .main-wrapper {
+    flex-direction: column;
   }
-
-  .img-box {
-
-    max-width: 30rem;
-    align-items: center;
-
-    
+  .box {
+    max-width: 110vw;
   }
 }
