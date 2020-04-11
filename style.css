@@ -40,8 +40,8 @@ body {
   
 }
 .main-content {
+  flex: 1;
   
-  width: 80em;
   
 }
 
@@ -85,7 +85,7 @@ p
 }
 
 .sidebar{
-  width: 20em;
+  flex: 0 0 250px;
   background-color: cornflowerblue;
   border-radius: 5px;
  
@@ -100,12 +100,10 @@ p
   margin-top: auto;
 }
 
-
-
-@media (min-width: 1200px) {
-  .sidebar {
+@media (min-width: 900px) {
+  .sidebar{
     display: block;
-    
-    
-  }
+  } 
+  
+
 }
